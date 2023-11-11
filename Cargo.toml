@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "llvm",
+    "mlir",
+    "mlir-aie",
+    "mlir-hlo",
+    "xla"
+]

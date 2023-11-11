@@ -1,0 +1,45 @@
+//! - include <https://github.com/llvm/llvm-project/tree/main/mlir/include/mlir/IR>
+//! - lib <https://github.com/llvm/llvm-project/tree/main/mlir/lib/IR>
+
+pub mod affine_expr;
+pub mod affine_map;
+pub mod asm_printer;
+pub mod asm_state;
+pub mod attr_type_base;
+pub mod attribute;
+pub mod block;
+pub mod block_and_value_mapping;
+pub mod builders;
+pub mod builtins;
+pub mod diagnostics;
+pub mod dialect;
+pub mod dialect_resource_blob_manager;
+pub mod dominance;
+pub mod enum_attribute;
+pub mod extensible_dialect;
+pub mod function;
+pub mod integer_set;
+pub mod location;
+pub mod mlir_context;
+pub mod matchers;
+pub mod operation;
+pub mod owning_op_ref;
+pub mod pattern_base;
+pub mod pattern_match;
+pub mod region;
+pub mod region_kind_interface;
+pub mod storage_uniquer_support;
+pub mod sub_element_interfaces;
+pub mod symbol_interfaces;
+pub mod symbol_table;
+pub mod tensor_encoding;
+pub mod threading;
+pub mod type_range;
+pub mod type_utilities;
+pub mod r#type;
+pub mod use_def_lists;
+pub mod value;
+pub mod value_range;
+pub mod verifier;
+pub mod visitors;
+mod region_graph_traits;

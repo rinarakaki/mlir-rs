@@ -1,0 +1,13 @@
+pub struct Prod(A, B);
+
+pub struct Sum(A, B);
+
+pub struct Fun(A, B);
+
+pub struct Param(Ident, Type);
+
+pub Call(Ident, Ident);
+
+pub Prod(Param(a, A), Call(B, a));
+
+pub Pi(A, B);
